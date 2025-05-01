@@ -1,4 +1,4 @@
-# 🌐 Emirhan Erkan | Kişisel Web Sitesi
+# 🌐 Emirhan Erkan | Kişisel Web Sitesi (Yapım aşamasında)
 
 
 
@@ -23,6 +23,15 @@
 🔗 Sosyal medya bağlantıları
 
 📄 Portföy ve CV erişimi
+
+## 📬 İletişim
+**Her türlü öneri veya iş birliği için bana ulaşabilirsiniz:**
+
+LinkedIn
+
+GitHub
+
+Instagram
 
 
 
