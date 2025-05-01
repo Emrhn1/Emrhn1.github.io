@@ -1,20 +1,21 @@
-🌐 Emirhan Erkan | Kişisel Web Sitesi (Yapım aşamasında)
+# 🌐 Emirhan Erkan | Kişisel Web Sitesi
 
 
-🚀 Siteye Göz At
-👉 Emirhan Erkan | Kişisel Web Sitesi
 
-🔧 Teknolojiler
-HTML5
+## 🚀 Siteye Göz At
+### 👉 Emirhan Erkan | Kişisel Web Sitesi
 
-CSS3 (modern tasarım teknikleri)
+## 🔧 Teknolojiler
+**HTML5**
 
-JavaScript (dinamik özellikler için)
+**CSS3** (modern tasarım teknikleri)
 
-Responsive tasarım (mobil uyumlu)
+**JavaScript** (dinamik özellikler için)
+
+**Responsive tasarım** (mobil uyumlu)
 
 
-💡 Özellikler
+## 💡 Özellikler
 🌙 Modern, temiz ve minimalist tasarım
 
 📱 Mobil uyumlu (responsive)
@@ -24,13 +25,6 @@ Responsive tasarım (mobil uyumlu)
 📄 Portföy ve CV erişimi
 
 
-📬 İletişim
-Her türlü öneri veya iş birliği için bana ulaşabilirsiniz:
 
-LinkedIn
 
-GitHub
-
-Instagram
-
-⭐️ Lütfen repomu beğenip yıldızlamayı unutmayın!
+## ⭐️ **Lütfen repomu beğenip yıldızlamayı unutmayın!**
