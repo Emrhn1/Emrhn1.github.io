@@ -3,7 +3,7 @@
 
 
 ## 🚀 Siteye Göz At
-### 👉 Emirhan Erkan | Kişisel Web Sitesi
+### 👉 Emirhan Erkan | Kişisel Web Sitesi: https://emrhn1.github.io
 
 ## 🔧 Teknolojiler
 **HTML5**
@@ -27,11 +27,11 @@
 ## 📬 İletişim
 **Her türlü öneri veya iş birliği için bana ulaşabilirsiniz:**
 
-LinkedIn
+LinkedIn:https://www.linkedin.com/in/emirhan-erkan-0aa03424b/
 
-GitHub
+GitHub:https://github.com/Emrhn1
 
-Instagram
+Instagram:https://www.instagram.com/lms_emir/
 
 
 
