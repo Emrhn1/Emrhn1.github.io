@@ -182,7 +182,7 @@ h1{
 .content{
     width: 100%;
     max-width: 1200px;
-    margin: 20pxi auto;
+    margin: 20px auto;
 }
 
 .content h1{
@@ -447,8 +447,8 @@ footer span {
     .content h3 {
         font-size: 30px;
     }
-    img {
-        width: 35%;
+    .rotating img {
+        width: 75%;
         height: auto;
     }
 }
@@ -507,8 +507,8 @@ footer span {
         padding: 20px 15px;
     }
 
-    img {
-        width: 60%;
+    .rotating img {
+        width: 75%;
         height: auto;
         margin: 30px auto;
         display: block;
