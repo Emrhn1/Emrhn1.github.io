@@ -14,7 +14,8 @@ body{
 }
 
 .header{
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,6 +27,7 @@ body{
     flex-wrap: wrap;
     flex-basis: 300px;
     border-bottom: 2px solid #D4AF37;
+
 }
 @media (max-width:768px){
     .header{

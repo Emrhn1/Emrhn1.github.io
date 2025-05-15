@@ -1,1 +1,0 @@
-let a=Number(prompt("sayı gir"));
