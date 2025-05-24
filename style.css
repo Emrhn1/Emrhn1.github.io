@@ -138,6 +138,14 @@ h1{
     display: flex;
 }
 
+.navbar i{
+    font-size: 20px;
+    color:black;
+    margin-right: 10px;
+    margin-left: 1px;
+    text-decoration: none;
+}
+
 .rotating::after {
     content: '';
     position: absolute;
