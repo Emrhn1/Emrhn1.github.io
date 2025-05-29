@@ -69,8 +69,19 @@ body{
     font-style: italic;
 }
 
-.navbar a:hover,
-.navbar a.active{
+.navbar a:hover i{
+   color: black;
+   transition: 0.4s ease;
+}
+
+.navbar a.active i{
+    color: white;
+}
+
+.navbar a.active a:hover{
+    color:black
+}
+.navbar a:hover{
     color: #000000;
     background-color: #D4AF37;
     transition: 0.4s;
@@ -140,7 +151,7 @@ h1{
 
 .navbar i{
     font-size: 20px;
-    color:black;
+    color: #D4AF37;
     margin-right: 10px;
     margin-left: 1px;
     text-decoration: none;
@@ -349,7 +360,7 @@ footer {
     font-size: 18px;
     display: block;
     margin: 10px auto;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .socials {
