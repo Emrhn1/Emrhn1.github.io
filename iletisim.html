@@ -44,11 +44,7 @@
             <div class="footer-logo">
                 <img src="images/logo.png" alt="Emirhan Logo">
             </div>
-            <div class="mail-container">
-                <span class="mail-text">emirhanerkn@hotmail.com</span>
-                <button class="copy-mail" onclick="copyEmail()">Kopyala</button>
-                <a href="mailto:emirhanerkn@hotmail.com" class="mail" target="_blank">Mail Gönder</a>
-            </div>
+            <a href="mailto:emirhanerkn@hotmail.com" class="mail" target="_blank">Mail Adresim: emirhanerkn@hotmail.com</a>
             <div class="socials">
                 <a href="https://github.com/Emrhn1" target="_blank">GitHub</a>
                 <a href="https://www.instagram.com/lms_emir/" target="_blank">Instagram</a>
@@ -60,20 +56,6 @@
         </div>
     </footer>
 
-    <script>
-    function copyEmail() {
-        navigator.clipboard.writeText('emirhanerkn@hotmail.com')
-            .then(() => {
-                const button = document.querySelector('.copy-mail');
-                button.textContent = 'Kopyalandı!';
-                setTimeout(() => {
-                    button.textContent = 'Kopyala';
-                }, 2000);
-            })
-            .catch(err => {
-                console.error('Kopyalama başarısız:', err);
-            });
-    }
-    </script>
+    
 </body>
 </html>

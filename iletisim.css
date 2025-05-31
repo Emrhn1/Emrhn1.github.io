@@ -69,6 +69,7 @@
 .contact-section button:hover {
     background-color: #D4AF37;
     transition: .6s;
+    color:black;
 }
 
 
