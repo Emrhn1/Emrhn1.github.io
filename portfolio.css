@@ -61,12 +61,54 @@
 }
 
 @media (max-width: 768px) {
+    .portfolio-section h2{
+        margin-top: 50%;
+        margin-bottom: -20%;
+    }
     .project-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
+        margin-top: 20%;
     }
 
     .portfolio-section {
         padding: 1rem;
     }
 }
+@media (max-width: 576px) {
+    .portfolio-section h2{
+        margin-top: 70%;
+        margin-bottom: -25%;
+    }
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 30%;
+    }
+}
+@media (max-width: 400px) {
+    .portfolio-section h2{
+        margin-top: 80%;
+        margin-bottom: -30%;
+    }
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 375px) {
+    .portfolio-section h2{
+        margin-top: 100%;
+        margin-bottom: -30%;
+    }
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+        margin-top: 35%;
+    }
+}
+
+
+

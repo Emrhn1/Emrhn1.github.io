@@ -112,7 +112,6 @@ h2{
 
 @media (max-width: 768px) {
     .about {
-        margin-top: 100px;
         padding: 40px 10px;
     }
 
@@ -127,11 +126,12 @@ h2{
 
     .plogos {
         gap: 25px;
-        margin-bottom: 20px;
         max-width: 300px;
     }
 
-    .plogos img {
+    .plogos img {   
+        margin-top: -20%;
+        margin-bottom: -200%;
         width: 50px;
         height: 50px;
     }
@@ -139,7 +139,7 @@ h2{
     .cv {
         margin-top: 10px;
         padding: 0 20%;
-        margin-bottom: 75px;
+        margin-bottom:20%;
     }
     
     .certificates {
@@ -183,13 +183,14 @@ h2{
     .plogos img {
         width: 45px;
         height: 45px;
+        margin-top: 10%;
+        margin-bottom: -200%;
     }
 
     .cv {
         margin-top: 10px;
         padding: 0 10%;
-        margin-bottom: 30px;
-        margin-bottom: 70px;
+        margin-bottom: 20%;
     }
     
     .certificates {
@@ -223,5 +224,12 @@ h2{
     .plogos img {
         width: 40px;
         height: 40px;
+        margin-top: 30%;
+        margin-bottom: -200%;
+    }
+    .cv {
+        margin-top: 10px;
+        padding: 0 10%;
+        margin-bottom: 30%;
     }
 }

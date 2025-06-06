@@ -173,6 +173,8 @@ h1{
         0 0 5px #D4AF37,
         0 0 10px #D4AF37;
     filter: brightness(1);
+    pointer-events: none;
+    transition: all 0.3s;
 }
 
 @keyframes borderRotate {
@@ -528,11 +530,34 @@ footer span {
         padding: 20px 15px;
     }
 
+    .rotating {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .rotating img {
-        width: 75%;
+        width: 55vw;
+        max-width: 320px;
         height: auto;
-        margin: 30px auto;
+        margin: 30px auto 0 auto;
         display: block;
+        margin-left: 26%;
+        margin-top: 20px;
+        
+    }
+    .rotating::after {
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        max-width: 320px;
+        height: 83%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        border-radius: 25%;
+        transform-origin: center center;
+        pointer-events: none;
     }
 
     .content .home-buttons {
@@ -573,6 +598,27 @@ footer span {
         padding: 15px 10px;
     }
 
+    .rotating img {
+        width:40vw;
+        max-width: 220px;
+        margin: 20px auto 0 auto;
+        display: block;
+        margin-left: 28%;
+        margin-top: 10px;
+    }
+    .rotating::after {
+        top: 50%;
+        left: 50%;
+        width: 90vw;
+        max-width: 220px;
+        height: 83%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        border-radius: 25%;
+        transform-origin: center center;
+        pointer-events: none;
+    }
+
     img {
         width: 80%;
     }
@@ -587,6 +633,7 @@ footer span {
         height: 35px;
         font-size: 18px;
     }
+  
 }
 
 @media (max-width: 400px) {
