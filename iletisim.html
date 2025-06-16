@@ -56,6 +56,42 @@
         </div>
     </footer>
 
-    
+    <script>
+      const getForm= document.querySelector('.contact-content');
+      getForm.addEventListener('submit',async (e)=>{
+        e.preventDefault();
+         
+        const data={
+            name:document.getElementById('name').value,
+            email:document.getElementById('email').value,
+            message:document.getElementById('message').value, 
+        }
+   
+        const response = await fetch('http://localhost:3000/iletisim', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        if(response.ok){
+            alert('Mesajınız başarıyla gönderildi!');
+        }
+        else{
+            alert('Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.');
+        }
+      }); 
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    </script>
 </body>
 </html>
