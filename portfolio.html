@@ -12,6 +12,63 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        /* Yeni eklenen stiller */
+        .portfolio-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .project-grid {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .project-card {
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .project-card:hover {
+            transform: scale(1.03);
+        }
+        
+        .project-details-container {
+            flex: 1;
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            display: none;
+        }
+        
+        .project-details-container.active {
+            display: block;
+        }
+        
+        .project-detail img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .portfolio-container {
+                flex-direction: column;
+            }
+            
+            .project-details-container {
+                position: static;
+                margin-top: 30px;
+            }
+        }
+    </style>
 </head>
 <body>
     
@@ -19,63 +76,61 @@
         <a href="index.html" class="logo">Emirhan Erkan</a>
 
       <nav class="navbar">
-
         <a href="index.html"><i class="bi bi-house-fill"></i>Anasayfa</a>
         <a href="hakkimda.html"><i class="bi bi-file-person-fill"></i>Hakkımda</a>
         <a href="portfolio.html" class="active"><i class="bi bi-book-fill"></i>Portföy</a>
         <a href="iletisim.html"><i class="bi bi-telephone-fill"></i>İletişim</a>
       </nav>  
-
     </header>
     
     <section class="portfolio-section">
         <h2>Yaptığım Projeler</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Javascript Hesap Makinesi</h3>
-                <a href="https://github.com/Emrhn1/Calculator" target="_blank" class="project-link">
+        <div class="portfolio-container">
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Javascript Hesap Makinesi</h3>
+                     <a href="calculator.html" target="_blank" class="project-link">
                     <img src="images/calculator.png" alt="Hesap Makinesi Projesi">
                 </a>
-            </div>
+                </div>
 
-            <div class="project-card">
-                <h3>Dünya Ülkeleri Quizi</h3>
-                <a href="https://github.com/Emrhn1/World-Countries-Quiz" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Dünya Ülkeleri Quizi</h3>
+                    <a href="quiz.html" target="_blank" class="project-link">
                     <img src="images/Project İmage.png" alt="Todo List Projesi">
                 </a>
-            </div>
+                </div>
 
-            <div class="project-card">
-                <h3>Kişisel Web Sitesi</h3>
-                <a href="https://github.com/Emrhn1/Emrhn1.github.io" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Kişisel Web Sitesi</h3>
+                     <a href="personal-website.html" target="_blank" class="project-link">
                     <img src="images/website.png" alt="Hava Durumu Projesi">
                 </a>
-            </div>
+                </div>
 
-            <div class="project-card">
-                <h3>Ticaret Sitesi (Grup Projesi)</h3>
-                <a href="https://github.com/Emrhn1/coreweb" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Ticaret Sitesi (Grup Projesi)</h3>
+                     <a href="grouproject.html" target="_blank" class="project-link">
                     <img src="images/groupprojects.png" alt="Ticaret Projesi">
                 </a>
-            </div>
+                </div>
 
-            <div class="project-card">
-                <h3>Film Sitesi</h3>
-                <a href="https://github.com/Emrhn1/Film-Website" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Film Sitesi</h3>
+                    <a href="film-website.html" target="_blank" class="project-link">
                     <img src="images/filmsite.png" alt="Blog Projesi">
                 </a>
-            </div>
+                </div>
 
-            <div class="project-card">
-                <h3>Yemek Tarifleri Sitesi</h3>
-                <a href="https://github.com/Emrhn1/Recipes-Website" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Yemek Tarifleri Sitesi</h3>
+                     <a href="recipe.html" target="_blank" class="project-link">
                   <img src="images/recipes.png" alt="Sosyal Medya Projesi">
                 </a>
-
-            </div>
+                </div>
+            </div>        
         </div>
     </section>
-    
 
     <footer class="footer">
         <div class="footer-content">
@@ -91,10 +146,7 @@
           <div class="C">
             <span>© 2025 Emirhan Erkan | Tüm Hakları Saklıdır</span>
           </div>
-  
         </div>
-  
-      </footer>
-      
+    </footer>  
 </body>
 </html>
