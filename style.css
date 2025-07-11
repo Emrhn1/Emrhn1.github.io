@@ -362,6 +362,12 @@ footer {
     font-size: 18px;
     display: block;
     margin: 10px auto;
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: #ffffff;
+    transition: 0.45s;
     text-decoration: underline;
 }
 
