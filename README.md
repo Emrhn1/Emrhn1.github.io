@@ -1,4 +1,4 @@
-# 🌐 Emirhan Erkan | Kişisel Web Sitesi (Yapım aşamasında)
+# 🌐 Emirhan Erkan | Kişisel Web Sitesi 
 
 
 
